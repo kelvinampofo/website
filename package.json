@@ -1,28 +1,35 @@
 {
-	"name": "website",
-	"version": "0.1.0",
-	"description": "Kelvin's website",
-	"license": "MIT",
-	"author": "Kelvin Ampofo <hi@kelvinampofo.com>",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@next/font": "13.1.1",
-		"@types/node": "18.11.18",
-		"@types/react": "18.0.26",
-		"@types/react-dom": "18.0.10",
-		"next": "13.1.1",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"typescript": "4.9.4"
-	},
-	"devDependencies": {
-		"eslint": "8.31.0",
-		"eslint-config-next": "13.1.1"
-	}
+  "name": "website",
+  "version": "0.1.0",
+  "description": "Kelvin's website",
+  "license": "MIT",
+  "author": "Kelvin Ampofo <hi@kelvinampofo.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check ."
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "postcss": "^8.4.21",
+    "prettier": "2.8.2",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4"
+  }
 }
