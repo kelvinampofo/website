@@ -6,7 +6,6 @@ export default function Head() {
       <meta name="author" content="Kelvin Ampofo" />
       <meta name="twitter:title" content="kelvin" />
       <meta name="twitter:site" content="@kelvinamp_" />
-      <link rel="icon" href="/favicon.ico" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Kelvin Ampofo" />
       <meta
@@ -14,6 +13,7 @@ export default function Head() {
         content="Crafting interfaces. Code, design, architecture and HCI."
       />
       <meta property="og:title" content="Kelvin Ampofo." />
+      <link rel="icon" href="/favicon.ico" />
       <title>Kelvin Ampofo</title>
     </>
   );
